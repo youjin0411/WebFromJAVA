@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="WebFromJAVA:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>WebFromJAVA</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="WebFromJAVA-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="WebFromJAVA:war exploded" />
+    </root>
+  </artifact>
+</component>
